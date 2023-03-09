@@ -2,7 +2,7 @@
     if(is_dir('./text_files')){
     }else{
       mkdir('./text_files');
-      if(chmod('./text_files', 666)){
+      if(chmod('./text_files', 777)){
       }
     }
     if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
