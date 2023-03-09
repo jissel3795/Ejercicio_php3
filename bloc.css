@@ -1,0 +1,69 @@
+.navbar {
+  background: linear-gradient(to right, rgb(114, 42, 42), rgb(56, 6, 6));
+}
+.navbar-nav {
+  display: flex;
+}
+
+.navbar .nav-item {
+  font-size: 20px;
+}
+.navbar .nav-item .nav-link {
+  font-size: 20px;
+  color: rgb(201, 201, 201);
+}
+.navbar .nav-item .nav-link:hover {
+  color: rgb(134, 134, 134);
+}
+
+#buttonSave {
+  color: rgb(201, 201, 201);
+  background-color: transparent;
+  font-size: 20px;
+}
+
+#buttonSave:hover {
+  color: rgb(134, 134, 134);
+}
+* {
+  outline: none;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  font-family: Courier, monospace;
+}
+
+#buttonCrear {
+  margin-top: 15px;
+  width: 80px;
+  background: linear-gradient(to right, rgb(114, 42, 42), rgb(56, 6, 6));
+  color: white;
+}
+
+#paper {
+  color: #fff;
+  font-size: 20px;
+}
+
+#text {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  color: #222;
+  font-size: 24px;
+  resize: none;
+  padding-bottom: 34px;
+  padding-left: 10px;
+  -webkit-box-shadow: 0px 2px 14px #000;
+  box-shadow: 0px 2px 14px #000;
+  border-top: 1px solid #fff;
+}
+
+#wrapper {
+  width: 700px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  margin-bottom: 100px;
+}
